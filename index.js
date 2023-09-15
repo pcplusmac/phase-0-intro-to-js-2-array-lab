@@ -11,3 +11,8 @@ function destructivelyAppendCat(name){
 function destructivelyPrependCat(name) {
     cats.unshift(name);
 }
+
+// A function for removing the last cat
+function destructivelyRemoveLastCat(name){
+    cats.pop(name);
+}

@@ -1,13 +1,13 @@
 {
   "stats": {
-    "suites": 6,
-    "tests": 3,
-    "passes": 3,
+    "suites": 7,
+    "tests": 4,
+    "passes": 4,
     "pending": 0,
     "failures": 1,
-    "start": "2023-09-15T11:51:58.100Z",
-    "end": "2023-09-15T11:51:58.334Z",
-    "duration": 234
+    "start": "2023-09-15T12:04:47.928Z",
+    "end": "2023-09-15T12:04:48.164Z",
+    "duration": 236
   },
   "tests": [
     {
@@ -27,7 +27,14 @@
     {
       "title": "prepends a cat to the beginning of the cats array",
       "fullTitle": "index.js Array functions destructivelyPrependCat(name) prepends a cat to the beginning of the cats array",
-      "duration": 0,
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "removes the last cat from the cats array",
+      "fullTitle": "index.js Array functions destructivelyRemoveLastCat() removes the last cat from the cats array",
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     }
@@ -35,13 +42,13 @@
   "pending": [],
   "failures": [
     {
-      "title": "removes the last cat from the cats array",
-      "fullTitle": "index.js Array functions destructivelyRemoveLastCat() removes the last cat from the cats array",
+      "title": "removes the first cat from the cats array",
+      "fullTitle": "index.js Array functions destructivelyRemoveFirstCat() removes the first cat from the cats array",
       "duration": 0,
       "currentRetry": 0,
       "err": {
-        "stack": "ReferenceError: destructivelyRemoveLastCat is not defined\n    at Context.<anonymous> (test/indexTest.js:35:9)\n    at process.processImmediate (node:internal/timers:476:21)",
-        "message": "destructivelyRemoveLastCat is not defined"
+        "stack": "ReferenceError: destructivelyRemoveFirstCat is not defined\n    at Context.<anonymous> (test/indexTest.js:43:9)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "destructivelyRemoveFirstCat is not defined"
       }
     }
   ],
@@ -63,7 +70,14 @@
     {
       "title": "prepends a cat to the beginning of the cats array",
       "fullTitle": "index.js Array functions destructivelyPrependCat(name) prepends a cat to the beginning of the cats array",
-      "duration": 0,
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "removes the last cat from the cats array",
+      "fullTitle": "index.js Array functions destructivelyRemoveLastCat() removes the last cat from the cats array",
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     }
