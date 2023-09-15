@@ -12,7 +12,12 @@ function destructivelyPrependCat(name) {
     cats.unshift(name);
 }
 
-// A function for removing the last cat
+// A function for removing the last element 
 function destructivelyRemoveLastCat(name){
     cats.pop(name);
+}
+
+// A function for removeing the fist element 
+function destructivelyRemoveFirstCat(name){
+    cats.shift(name);
 }
