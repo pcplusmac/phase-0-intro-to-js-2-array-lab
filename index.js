@@ -46,3 +46,9 @@ function removeLastCat(){
     newCats = cats.slice(0,-1);
     return newCats
 }
+//  A funciton to remove the first element 
+function removeFirstCat(){
+    
+    newCats = cats.slice(1);
+    return newCats;
+}
