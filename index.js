@@ -1,6 +1,8 @@
 // Write your solution here!
 const cats = ["Milo","Otis","Garfield"]; 
 
+var newCats;
+
 // Create the aray function to append the cat at the end position
 function destructivelyAppendCat(name){
     
@@ -24,6 +26,13 @@ function destructivelyRemoveFirstCat(name){
 
 // A function to append the new element nondestructively. 
 function appendCat(name){
-    const newCats = [...cats,name];
+    newCats = [...cats,name];
     return newCats;
+}
+
+// A function to prepend the new element nondestructively
+function prependCat(name){
+    newCats = [name, ...cats];
+    return newCats;
+
 }
