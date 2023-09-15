@@ -21,3 +21,9 @@ function destructivelyRemoveLastCat(name){
 function destructivelyRemoveFirstCat(name){
     cats.shift(name);
 }
+
+// A function to append the new element nondestructively. 
+function appendCat(name){
+    const newCats = [...cats,name];
+    return newCats;
+}

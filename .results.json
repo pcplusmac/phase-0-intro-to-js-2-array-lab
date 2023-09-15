@@ -1,13 +1,13 @@
 {
   "stats": {
-    "suites": 8,
-    "tests": 5,
-    "passes": 5,
+    "suites": 9,
+    "tests": 6,
+    "passes": 6,
     "pending": 0,
     "failures": 1,
-    "start": "2023-09-15T12:07:32.556Z",
-    "end": "2023-09-15T12:07:32.793Z",
-    "duration": 237
+    "start": "2023-09-15T12:32:44.621Z",
+    "end": "2023-09-15T12:32:44.856Z",
+    "duration": 235
   },
   "tests": [
     {
@@ -44,18 +44,25 @@
       "duration": 1,
       "currentRetry": 0,
       "err": {}
-    }
-  ],
-  "pending": [],
-  "failures": [
+    },
     {
       "title": "appends a cat to the cats array and returns a new array, leaving the cats array unchanged",
       "fullTitle": "index.js Array functions appendCat(name) appends a cat to the cats array and returns a new array, leaving the cats array unchanged",
       "duration": 0,
       "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "prepends a cat to the cats array and returns a new array, leaving the cats array unchanged",
+      "fullTitle": "index.js Array functions prependCat(name) prepends a cat to the cats array and returns a new array, leaving the cats array unchanged",
+      "duration": 1,
+      "currentRetry": 0,
       "err": {
-        "stack": "ReferenceError: appendCat is not defined\n    at Context.<anonymous> (test/indexTest.js:51:9)\n    at process.processImmediate (node:internal/timers:476:21)",
-        "message": "appendCat is not defined"
+        "stack": "ReferenceError: prependCat is not defined\n    at Context.<anonymous> (test/indexTest.js:59:9)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "prependCat is not defined"
       }
     }
   ],
@@ -92,6 +99,13 @@
       "title": "removes the first cat from the cats array",
       "fullTitle": "index.js Array functions destructivelyRemoveFirstCat() removes the first cat from the cats array",
       "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "appends a cat to the cats array and returns a new array, leaving the cats array unchanged",
+      "fullTitle": "index.js Array functions appendCat(name) appends a cat to the cats array and returns a new array, leaving the cats array unchanged",
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     }
