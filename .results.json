@@ -1,12 +1,12 @@
 {
   "stats": {
-    "suites": 4,
-    "tests": 1,
-    "passes": 1,
+    "suites": 5,
+    "tests": 2,
+    "passes": 2,
     "pending": 0,
     "failures": 1,
-    "start": "2023-09-15T11:37:52.180Z",
-    "end": "2023-09-15T11:37:52.414Z",
+    "start": "2023-09-15T11:47:59.296Z",
+    "end": "2023-09-15T11:47:59.530Z",
     "duration": 234
   },
   "tests": [
@@ -16,18 +16,25 @@
       "duration": 1,
       "currentRetry": 0,
       "err": {}
-    }
-  ],
-  "pending": [],
-  "failures": [
+    },
     {
       "title": "appends a cat to the end of the cats array",
       "fullTitle": "index.js Array functions destructivelyAppendCat(name) appends a cat to the end of the cats array",
       "duration": 0,
       "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "prepends a cat to the beginning of the cats array",
+      "fullTitle": "index.js Array functions destructivelyPrependCat(name) prepends a cat to the beginning of the cats array",
+      "duration": 0,
+      "currentRetry": 0,
       "err": {
-        "stack": "ReferenceError: destructivelyAppendCat is not defined\n    at Context.<anonymous> (test/indexTest.js:19:9)\n    at process.processImmediate (node:internal/timers:476:21)",
-        "message": "destructivelyAppendCat is not defined"
+        "stack": "ReferenceError: destructivelyPrependCat is not defined\n    at Context.<anonymous> (test/indexTest.js:27:9)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "destructivelyPrependCat is not defined"
       }
     }
   ],
@@ -36,6 +43,13 @@
       "title": "is assigned an initial value of [\"Milo\", \"Otis\", \"Garfield\"]",
       "fullTitle": "index.js cats is assigned an initial value of [\"Milo\", \"Otis\", \"Garfield\"]",
       "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "appends a cat to the end of the cats array",
+      "fullTitle": "index.js Array functions destructivelyAppendCat(name) appends a cat to the end of the cats array",
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     }
