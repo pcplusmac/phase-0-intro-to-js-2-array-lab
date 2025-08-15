@@ -19,10 +19,26 @@ function destructivelyRemoveFirstCat() {
 
 function appendCat(name) {
     const newCats = [...cats, "Broom"]
+    console.log (newCats);
     return newCats
 }
 
 function prependCat(name) {
-    const newCatsTwo = [name, ...cats]
+    const newCatsTwo = [name, ...cats];
+    console.log (newCatsTwo);
     return newCatsTwo
 }
+
+
+
+function removeLastCat() {
+   const newCatsThree = cats.slice(0,-1)
+   return newCatsThree
+}
+
+function removeFirstCat(){
+    const newCatsFour = cats.slice(1)
+    return newCatsFour
+}
+
+console.log (removeLastCat())
