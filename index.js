@@ -16,3 +16,13 @@ function destructivelyRemoveLastCat() {
 function destructivelyRemoveFirstCat() {
     return cats.shift()
 }
+
+function appendCat(name) {
+    const newCats = [...cats, "Broom"]
+    return newCats
+}
+
+function prependCat(name) {
+    const newCatsTwo = [name, ...cats]
+    return newCatsTwo
+}
